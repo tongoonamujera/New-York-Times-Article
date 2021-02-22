@@ -19,7 +19,3 @@ Feel free to check the issues page.
 Show your support Give a star if you like this project!
 
 Acknowledgments to anyone whose code was used Inspiration etc. License This project is MIT licensed.
-
-YOU CAN SEE A SCREEN SHOT OF MY PAGE ON THE FOLLOWING LINK
-
-![screenshot-of-my-project](https://user-images.githubusercontent.com/69446259/108741966-e9c01080-753f-11eb-975e-75d98cf51260.PNG)
