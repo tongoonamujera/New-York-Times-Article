@@ -7,7 +7,7 @@ body {
   color: rgb(55, 56, 55);
   background-color: white !important;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 a {
@@ -19,13 +19,15 @@ a {
 /* the topNav container */
 
 .topNav {
-  background-color: rgb(239, 248, 247);
+  background-color: white;
   display: flex;
   height: 2rem;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid rgb(207, 206, 206);
 }
 
 /* inside the navigation bar */
@@ -51,6 +53,7 @@ article > img {
 .search > img {
   width: 20px;
   height: 20px;
+  margin-left: -4cm;
 }
 
 .sub,
@@ -64,7 +67,7 @@ article > img {
 
 .thirdNavSec {
   display: flex;
-  width: 7.3cm;
+  width: 6cm;
   justify-content: space-between;
 }
 
@@ -81,6 +84,8 @@ main {
 
 .mainsocial {
   border-top: 1px solid gray;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .mainDivOne {
@@ -134,8 +139,9 @@ main {
 }
 
 .editorsec > p {
-  font-size: 14px;
+  font-size: 11px;
   float: right;
+  color: gray !important;
 }
 
 /* *** inflation pics sec *** */
@@ -188,6 +194,11 @@ main {
   padding-top: 1.4rem;
 }
 
+.space {
+  margin-left: -7.4cm;
+  color: rgb(5, 5, 5);
+}
+
 .spaceAndAstronomyInner {
   display: flex;
 }
@@ -217,6 +228,8 @@ footer {
 
 .contacts {
   position: fixed;
+  justify-content: space-between;
+  flex: 1;
   bottom: 0;
   right: 0;
   left: 0;
@@ -245,7 +258,7 @@ footer {
 }
 
 .newsletter {
-  border: 1px solid gray;
+  border: 1px solid rgb(235, 232, 232);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -288,8 +301,55 @@ a > svg {
 #hone {
   font-style: italic;
   text-align: start;
+  justify-self: center;
+  font-size: 40px;
 }
 
 #hamb {
-  visibility: hidden;
+  font-size: large;
+  margin-left: 14px;
+}
+
+.pdiv {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.firstCon,
+.secCon,
+.thirdcon {
+  margin-right: 8px;
+}
+
+.subscribe {
+  border-left: 1px solid rgb(34, 33, 33);
+  padding-left: 5px;
+  margin-top: 0;
+}
+
+.mobiapp {
+  border-top: 1px solid gray;
+}
+
+.plast {
+  font-size: 13px;
+}
+
+.options > a {
+  color: rgb(88, 86, 86);
+}
+
+.contacts > a {
+  color: gray;
+  font-size: 13px;
+  padding-left: 6px;
+}
+
+button {
+  background-color: rgb(74, 74, 146);
+  color: white;
+}
+
+.ev > a {
+  color: gray;
 }
