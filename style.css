@@ -43,6 +43,11 @@ a > img {
   padding-top: 2px;
 }
 
+article > img {
+  height: 150px;
+  width: 150px;
+}
+
 .search > img {
   width: 20px;
   height: 20px;
@@ -103,8 +108,6 @@ main {
   flex: 1;
 }
 
-
-
 /* *** editor picks section*** */
 
 .editorPics {
@@ -145,10 +148,7 @@ main {
 .firstInfpics, .secInfpics {
   display: flex;
 }
-article > img {
-  height: 150px;
-  width: 150px;
-}
+
 
 /* final div */
 
