@@ -53,7 +53,7 @@ article > img {
   height: 20px;
 }
 
-.sub, 
+.sub,
 .log {
   background-color: rgba(38, 39, 128, 0.9);
   color: white;
@@ -90,15 +90,15 @@ main {
   margin-right: 16%;
 }
 
-.mainDivTwo, 
+.mainDivTwo,
 .divLastsec {
   margin-left: 25%;
   margin-right: 25%;
 }
 
 .firstMainSec > img {
- width: 100%;
- height: 10cm;
+  width: 100%;
+  height: 10cm;
 }
 
 /* *****editor sec ****** */
@@ -145,10 +145,10 @@ main {
   flex-direction: column;
 }
 
-.firstInfpics, .secInfpics {
+.firstInfpics, 
+.secInfpics {
   display: flex;
 }
-
 
 /* final div */
 
@@ -189,7 +189,7 @@ main {
 }
 
 .spaceAndAstronomyInner {
-    display: flex;
+  display: flex;
 }
 
 .Eiditor {
@@ -215,14 +215,14 @@ footer {
   justify-content: space-between;
 }
 
-.contacts{
- position: fixed;
- bottom: 0;
- right: 0;
- left: 0;
- border-bottom: 3px solid gray;
- border-top: 1px solid gray;
- padding-top: 5px;
+.contacts {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 3px solid gray;
+  border-top: 1px solid gray;
+  padding-top: 5px;
 }
 
 .options {
@@ -256,9 +256,11 @@ footer {
   color: white;
   border-radius: 5px;
 }
+
 a > svg {
   width: 40%;
 }
+
 #gra > svg {
   width: 70%;
 }
