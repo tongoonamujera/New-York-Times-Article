@@ -7,7 +7,7 @@ Project specifications can be found at https://www.theodinproject.com/courses/ht
 
 Project requirements: clean, code, semantic HTML, aside tag for editor's picks, use float, flex and grid techniques.
 
-Live Demo at https://tongoonamujera.github.io/First-Microverse-Project/
+Live Demo at https://tongoonamujera.github.io/New-York-Times-Article/
 
 
 Author: Tongoona Mujera
