@@ -145,7 +145,7 @@ main {
   flex-direction: column;
 }
 
-.firstInfpics, 
+.firstInfpics,
 .secInfpics {
   display: flex;
 }
