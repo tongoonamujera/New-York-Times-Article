@@ -284,3 +284,12 @@ a > svg {
 .contentSecTwot {
   margin-right: 30%;
 }
+
+#hone {
+  font-style: italic;
+  text-align: start;
+}
+
+#hamb {
+  visibility: hidden;
+}
