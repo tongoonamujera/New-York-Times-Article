@@ -19,3 +19,7 @@ Feel free to check the issues page.
 Show your support Give a star if you like this project!
 
 Acknowledgments to anyone whose code was used Inspiration etc. License This project is MIT licensed.
+
+A SCREENSHOT OF MY PROJECT BELLOW
+
+![screenshot-of-my-project](https://user-images.githubusercontent.com/69446259/108743720-c1391600-7541-11eb-8b77-45b107e70ccf.PNG)

@@ -1,0 +1,355 @@
+/* the whole child elements for the body are in grid style */
+
+body {
+  display: grid;
+  min-height: 100%;
+  min-width: 97.5vw;
+  color: rgb(55, 56, 55);
+  background-color: white !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ********** the body is mainly divide into three parts i.e topNav, main and the footer *************** */
+
+/* the topNav container */
+
+.topNav {
+  background-color: white;
+  display: flex;
+  height: 2rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid rgb(207, 206, 206);
+}
+
+/* inside the navigation bar */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+a > img {
+  height: 20px;
+  width: 25px;
+  padding-top: 2px;
+}
+
+article > img {
+  height: 150px;
+  width: 150px;
+}
+
+.search > img {
+  width: 20px;
+  height: 20px;
+  margin-left: -4cm;
+}
+
+.sub,
+.log {
+  background-color: rgba(38, 39, 128, 0.9);
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-bottom: 0;
+}
+
+.thirdNavSec {
+  display: flex;
+  width: 6cm;
+  justify-content: space-between;
+}
+
+/* **************** the main container********************************* */
+
+main {
+  grid-row-start: 2;
+  grid-row-end: 7;
+  background-color: rgb(253, 249, 250);
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainsocial {
+  border-top: 1px solid gray;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.mainDivOne {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.mainDivTwo,
+.divLastsec {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.firstMainSec > img {
+  width: 100%;
+  height: 10cm;
+}
+
+/* *****editor sec ****** */
+
+.ediSec {
+  display: flex;
+  flex: 1;
+}
+
+/* *** editor picks section*** */
+
+.editorPics {
+  display: flex;
+  flex-direction: column;
+  margin-right: -40%;
+  margin-left: -10%;
+}
+
+.one {
+  border-top: 1px solid gray;
+  padding-top: 4px;
+}
+
+.editorsec {
+  display: flex;
+}
+
+.editorsec > img {
+  float: left;
+  height: 60px;
+  width: 60px;
+  padding-bottom: 5px;
+}
+
+.editorsec > p {
+  font-size: 11px;
+  float: right;
+  color: gray !important;
+}
+
+/* *** inflation pics sec *** */
+
+.midDivSec {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstInfpics,
+.secInfpics {
+  display: flex;
+}
+
+/* final div */
+
+.finDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.todaySec {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* *** sugestions and space astro *** */
+
+.suggestions-sec {
+  display: flex;
+  flex: 1;
+}
+
+.inner-sugOne {
+  padding-top: 8px;
+  border-top: 1px solid gray;
+}
+
+.containerForPics {
+  display: flex;
+  margin-right: 30px;
+}
+
+.spaceAndAstronomy {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid gray;
+  padding-top: 1.4rem;
+}
+
+.space {
+  margin-left: -7.4cm;
+  color: rgb(5, 5, 5);
+}
+
+.spaceAndAstronomyInner {
+  display: flex;
+}
+
+.Eiditor {
+  display: flex;
+  padding-top: 3px;
+  border-top: 1px solid gray;
+}
+
+/* ******************the footer container***************** */
+
+footer {
+  grid-row-start: 7;
+  grid-row-end: 9;
+  background-color: rgb(247, 243, 243);
+  bottom: 0;
+  border-top: 1px solid gray;
+}
+
+.footerLinks {
+  display: flex;
+  padding-bottom: 4rem;
+  width: 95.5vw;
+  justify-content: space-between;
+}
+
+.contacts {
+  position: fixed;
+  justify-content: space-between;
+  flex: 1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 3px solid gray;
+  border-top: 1px solid gray;
+  padding-top: 5px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.mostImpo {
+  width: 50vw;
+  height: 45vh;
+}
+
+.infp {
+  font-size: 13px;
+  padding-right: 12px;
+}
+
+.ev {
+  border-top: 1px solid gray;
+}
+
+.newsletter {
+  border: 1px solid rgb(235, 232, 232);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.todayp {
+  background-color: rgba(3, 4, 58, 0.9);
+  color: white;
+  border-radius: 5px;
+}
+
+a > svg {
+  width: 40%;
+}
+
+#gra > svg {
+  width: 70%;
+}
+
+.infph {
+  font-size: 15px;
+  background-color: #d8bfd8;
+  padding-top: 0;
+  margin: 0;
+}
+
+.Opsec {
+  text-align: center;
+}
+
+.midDiv {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.contentSecTwot {
+  margin-right: 30%;
+}
+
+#hone {
+  font-style: italic;
+  text-align: start;
+  justify-self: center;
+  font-size: 40px;
+}
+
+#hamb {
+  font-size: large;
+  margin-left: 14px;
+}
+
+.pdiv {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.firstCon,
+.secCon,
+.thirdcon {
+  margin-right: 8px;
+}
+
+.subscribe {
+  border-left: 1px solid rgb(34, 33, 33);
+  padding-left: 5px;
+  margin-top: 0;
+}
+
+.mobiapp {
+  border-top: 1px solid gray;
+}
+
+.plast {
+  font-size: 13px;
+}
+
+.options > a {
+  color: rgb(88, 86, 86);
+}
+
+.contacts > a {
+  color: gray;
+  font-size: 13px;
+  padding-left: 6px;
+}
+
+button {
+  background-color: rgb(74, 74, 146);
+  color: white;
+}
+
+.ev > a {
+  color: gray;
+}
