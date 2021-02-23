@@ -274,7 +274,7 @@ a > svg {
   width: 40%;
 }
 
-#gra > svg {
+.gra > svg {
   width: 70%;
 }
 
@@ -298,14 +298,14 @@ a > svg {
   margin-right: 30%;
 }
 
-#hone {
+.hone {
   font-style: italic;
   text-align: start;
   justify-self: center;
   font-size: 40px;
 }
 
-#hamb {
+.hamb {
   font-size: large;
   margin-left: 14px;
 }
@@ -352,4 +352,23 @@ button {
 
 .ev > a {
   color: gray;
+}
+
+.radioSec {
+  border: 1px solid gray;
+  background-color: rgb(129, 112, 112);
+  margin-top: 5px;
+}
+
+.two {
+  padding-bottom: 5px;
+  margin-left: 65px;
+  height: 45px;
+  width: 420px;
+}
+
+.inpsub {
+  width: 70px;
+  color: white;
+  background-color: gray;
 }
